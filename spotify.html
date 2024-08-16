@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="spotifystyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#" >Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                         <img src="D:\vaibhavi\WebImg\library_icon.png">
+                         <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                     <div class="box">
+                         <p class="box-p1">Create your first playlist</p>
+                         <p class="box-p2">It's easy, we'll help you</p>
+                         <button class="badge"> Create playlist</button>
+                     </div>
+                     <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge"> Browse podcasts</button>
+                    </div>
+                    
+                 </div>
+            </div>
+        </div>
+        <div class="main-content">
+
+
+            <div class="sticky-nav">
+
+                <div class="sticky-nav-icons">
+                    <img src="D:\vaibhavi\WebImg\backward_icon.png">
+                    <img src="D:\vaibhavi\WebImg\forward_icon.png " class="hide">
+                </div>
+
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide"> Explore Premium </button>
+                    <button style="background-color: black; color: white;" class="badge nav-item "><i style="color:white; margin-right: 3px;";  class="fa-regular fa-circle-down"></i> Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+
+            </div>
+            
+                                                    <!-- CARDS LAYOUT -->
+
+                <h2>Recently played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="D:\vaibhavi\WebImg\card1img.jpeg"class="card-img">
+                        <p class="card-title" >Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks right...</p>
+                     </div>
+                </div>
+
+                <h2>Trending now near you</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="D:\vaibhavi\WebImg\card2img.jpeg"class="card-img">
+                        <p class="card-title" >Mahiye Jinna..</p>
+                        <p class="card-info">Darshan Raval</p>
+                     </div>
+                </div>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="D:\vaibhavi\WebImg\card3img.jpeg"class="card-img">
+                        <p class="card-title" >Pasoori Nu(From..)</p>
+                        <p class="card-info">Arijit Singh, Rochak Kohli, Tulsi Kumar</p>
+                     </div>
+                </div>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="D:\vaibhavi\WebImg\card4img.jpeg"class="card-img">
+                        <p class="card-title" >Naa Ready(From..)</p>
+                        <p class="card-info">Anirudh Ravichander, Thalapathy Vijay, Asal..</p>
+                     </div>
+                </div>
+                
+
+                <h2>Featured Charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="D:\vaibhavi\WebImg\card5img.jpeg"class="card-img">
+                        <p class="card-title" >Top Songs - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks right...</p>
+                     </div>
+                </div>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="D:\vaibhavi\WebImg\card6img.jpeg"class="card-img">
+                        <p class="card-title" >Top songs - India</p>
+                        <p class="card-info">Your daily updates of the most played tracks right...</p>
+                     </div>
+                </div>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="D:\vaibhavi\WebImg\card1img.jpeg"class="card-img">
+                        <p class="card-title" >Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks right...</p>
+                     </div>
+                </div>
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+        </div>
+
+
+        <div class="music-player">
+              
+              <div class="album">
+                <div><img src="D:\vaibhavi\WebImg\card3img.jpeg" class="player-control-icon"></div>
+               <div style="margin: 0.7rem;"><p class="card-title" >Pasoori Nu(From..)</p>
+                <p class="card-info">Arijit Singh, Rochak Kohli, Tulsi Kumar</p></div>
+              </div>
+
+
+              <div class="player">
+                <div class="player-control">
+                    <img src="D:\vaibhavi\WebImg\player_icon1.png" class="player-control-icon">
+                    <img src="D:\vaibhavi\WebImg\player_icon2.png" class="player-control-icon">
+                    <img src="D:\vaibhavi\WebImg\player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="D:\vaibhavi\WebImg\player_icon4.png" class="player-control-icon">
+                    <img src="D:\vaibhavi\WebImg\player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="current-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3:33</span>
+                </div>
+              </div>
+              <div class="controls">
+                <i class="fa-solid fa-play icon"></i>
+                <i class="fa-solid fa-layer-group icon"></i>
+                <i class="fa-solid fa-network-wired icon"></i>
+                <i class="fa-solid fa-volume-off icon"></i>
+                <input type="range" min="0" max="100" class="pg-bar icon" step="1" style=" height: 0.3rem;
+                width: 5rem; margin-top: 1rem;">
+                <i class="fa-solid fa-up-right-and-down-left-from-center icon"></i>
+              </div> 
+        </div>
+</body>
+</html>
